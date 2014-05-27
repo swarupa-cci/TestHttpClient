@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
 	        protected String doInBackground(String... urls) {
 	 
 	        	HttpClient httpClient = new DefaultHttpClient();
-	    		HttpGet httpGet = new HttpGet("");
+	    		HttpGet httpGet = new HttpGet("http");
 	    		StringBuffer result = new StringBuffer();
 	    		HttpResponse response;
 				try {
